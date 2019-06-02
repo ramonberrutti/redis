@@ -55,6 +55,8 @@ func (opt *FailoverOptions) options() *Options {
 
 		OnConnect: opt.OnConnect,
 
+		Password: opt.Password,
+
 		DB: opt.DB,
 
 		MaxRetries: opt.MaxRetries,

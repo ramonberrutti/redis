@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-redis/redis"
+	"github.com/ramonberrutti/redis"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
